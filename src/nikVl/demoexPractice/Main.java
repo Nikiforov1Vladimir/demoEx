@@ -2,6 +2,7 @@ package nikVl.demoexPractice;
 
 import nikVl.demoexPractice.entities.Manager;
 import nikVl.demoexPractice.entities.Product;
+import nikVl.demoexPractice.util.baseForm;
 
 import java.sql.Connection;
 import java.sql.Driver;
@@ -11,7 +12,7 @@ import java.sql.SQLException;
 public class Main {
 
     public static void main(String[] args) throws SQLException {
-        System.out.println(Manager.selectById(104));
+        new baseForm();
     }
 
     public static Connection getConnection() throws SQLException {
