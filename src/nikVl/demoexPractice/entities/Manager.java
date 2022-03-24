@@ -20,6 +20,7 @@ public class Manager {
             preparedStatement.setInt(5,product.getProductionPersonCount());
             preparedStatement.setInt(6,product.getProductionWorkshopNumber());
             preparedStatement.setInt(7,product.getProductionPersonCount());
+            preparedStatement.setString(8,product.getDescription());
 
             preparedStatement.executeUpdate();
 
