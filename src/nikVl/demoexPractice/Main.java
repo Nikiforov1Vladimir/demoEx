@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class Main {
 
     public static void main(String[] args) throws SQLException {
-        System.out.println(Manager.selectById(2));
+        System.out.println(Manager.selectById(104));
     }
 
     public static Connection getConnection() throws SQLException {
